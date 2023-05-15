@@ -10,7 +10,7 @@ function smoothScrolling() {
 
         speed: 0,
         minY: 0,
-        maxY: bounds.height,
+        maxY: bounds.height - window.innerHeight,
         y: 0
     };
 
@@ -61,3 +61,8 @@ function smoothScrolling() {
 
 }
 smoothScrolling();  
+
+
+window.onresize = () => {
+    location.reload();
+  }
