@@ -10,7 +10,7 @@ function smoothScrolling() {
 
         speed: 0,
         minY: 0,
-        maxY: bounds.height - window.innerHeight,
+        maxY: bounds.height,
         y: 0
     };
 
